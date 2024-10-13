@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prarambha's Portfolio collections</title>
+
+        <style>
+            th,
+            td {
+                padding: 24px;
+                text-align: left;
+                border-bottom: 2px solid #17518b;
+                border-right: 2px solid #17518b;
+            }
+            th {
+                background-color: blue;
+                color: white;
+            }
+            #myButton {
+                background-color: thistle;
+                color: #000000;
+                cursor: pointer;
+                position: absolute;
+                right: 50px;
+                bottom: 138px;
+                text-align-last: middle;
+                text-decoration: underline;
+            }
+
+            #myButton:hover {
+                background-color: #ba3a89;
+                text-decoration: line-through;
+                text-decoration: bold;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                font-family: Arial, Impact, Haettenschweiler;
+                background-color: #a78181;
+                overflow-x: hidden;
+            }
+            table {
+                width: 100%;
+            }
+
+            .navbar {
+                background-color: #a92b4c;
+                overflow: hidden;
+            }
+            .navbar a {
+                float: left;
+                color: #ffffff;
+                text-align: right;
+                padding: 14px 16px;
+                text-decoration: underline;
+                font-size: 17px;
+            }
+            .navbar a:hover {
+                background-color: teal;
+                color: lightgreen;
+                text-decoration: line-through;
+            }
+            .navbar a.active {
+                background-color: #c6496a;
+                color: #fff600;
+            }
+
+            .footer {
+                position: relative;
+                left: 82;
+                bottom: 0;
+                width: 100%;
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 23px; /* Add some padding for readability */
+            }
+            .footer a:hover {
+                background-color: teal;
+                color: lightgreen;
+                text-decoration: line-through;
+            }
+            .enlarged-text {
+                font-size: 102px;
+            }
+            .text {
+                font-size: xx-large;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a href="k.html">Prarambha</a>
+            <a href="kk.html">Milan</a>
+            <a href="kkk.html">Adit</a>
+            <a href="kkkk.html">Aayush</a>
+            <a href="kkkkk.html">Jhon</a>
+        </div>
+
+        <div id="home">
+            <p class="enlarged-text">WELCOME To The Webpage.</p>
+
+            <p class="text" style="text-align: center">Click The Button To Continue!</p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; MrBashyal - 2024</p>
+            <footer>“Be Strong & Brave Like A Soldier”</footer>
+        </div>
+
+        <button id="myButton" onclick="window.location.href='k.html'" style="width: 171px; height: 63px">
+            Prarambha's Portfolio
+        </button>
+    </body>
+</html>
