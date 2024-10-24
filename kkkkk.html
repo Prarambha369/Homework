@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prarambha's Portfolio collections</title>
+
+        <style>
+            th,
+            td {
+                padding: 24px;
+                text-align: left;
+                border-bottom: 2px solid #000000;
+                border-right: 2px solid #000000;
+                background-color: #db7878;
+            }
+            th {
+                background-color: orangered;
+                color: cornsilk;
+            }
+            #myButton {
+                background-color: thistle;
+                color: #000000;
+                cursor: pointer;
+                position: absolute;
+                right: 50px;
+                bottom: -330px;
+                text-align-last: middle;
+                text-decoration: underline;
+            }
+            #myButton:hover {
+                background-color: #e8299e;
+                text-decoration: line-through;
+                text-decoration: bold;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #a78181;
+                overflow-x: hidden;
+            }
+            table {
+                width: 100%;
+            }
+
+            .navbar {
+                background-color: #a92b4c;
+                overflow: hidden;
+            }
+            .navbar a {
+                float: left;
+                color: #ffffff;
+                text-align: right;
+                padding: 14px 16px;
+                text-decoration: underline;
+                font-size: 17px;
+            }
+            .navbar a:hover {
+                background-color: teal;
+                color: lightgreen;
+                text-decoration: line-through;
+            }
+            .navbar a.active {
+                background-color: #c6496a;
+                color: #000000;
+            }
+
+            .footer {
+                position: relative;
+                left: 100;
+                bottom: 0;
+                width: 100%;
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 23px; /* Add some padding for readability */
+            }
+            .footer a:hover {
+                background-color: teal;
+                color: lightgreen;
+                text-decoration: line-through;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="k.html">Prarambha</a>
+            <a href="kk.html">Milan</a>
+            <a href="kkk.html">Adit</a>
+            <a href="kkkk.html">Aayush</a>
+            <a class="active" href="kkkkk.html">Jhon</a>
+        </div>
+
+        <br />
+
+        <table>
+            <tr>
+                <th colspan="3">Jhon Cooks</th>
+            </tr>
+            <tr>
+                <td rowspan="5">
+                    <img
+                        src="https://imgs.search.brave.com/fOksrTPsrKF-Yz2zImw-nUkPCHt9BXCPlaQyeqTCKJU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91YWxy/LmVkdS9sYXcvZmls/ZXMvMjAyMy8wOC9K/b2huLUNvb2stSW1h/Z2UtNzAweDEwNTAu/anBn"
+                        alt="Pebo photo"
+                        width="150" />
+                </td>
+                <td>Professional</td>
+                <td>Cook</td>
+            </tr>
+            <tr>
+                <td>About Me:</td>
+                <td>I'm passionate about FOOD and eager to gain practical experience through Cooking .</td>
+            </tr>
+            <tr>
+                <td>Projects:</td>
+                <td>
+                    <ul>
+                        <li>
+                            <img
+                                src="https://imgs.search.brave.com/zjNQhkYqYs9TGbIBhWt2sUuhXzbLLzXVp0JWegVuY5g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9waWN0/dXJldGhlcmVjaXBl/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNy9Hcmls/bGVkLUNoaWNrZW4t/d2l0aC1GcmVzaC1D/aGVycnktU2Fsc2Et/RmVhdHVyZWQtMS02/ODB4OTAwLmpwZw"
+                                alt="food photo"
+                                width="15%" />
+                        </li>
+                        <li>
+                            <img
+                                src="https://imgs.search.brave.com/GHVSOwpQL_eVR9-WskKjH4zYAFJ4KB_3-SUnb0mt-z4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9waWN0/dXJldGhlcmVjaXBl/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wMS9DaGlj/a2VuLTY1LVdpbmdz/LUluZGlhbi1NYXNh/bGEtV2luZ3MtUFRS/LUZlYXR1cmVkLTY4/MHg5MDAuanBn"
+                                alt="food photo"
+                                width="15%" />
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Achievements:</td>
+                <td>
+                    <ul>
+                        <li>Certification in Cooking</li>
+                        <li>Won Cooking competition 🍳</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Contact:</td>
+                <td>
+                    Email: <a href="mailto:">Cook@jhon.com</a> <br />
+                    Instagram: <a href="https://www.instagram.com/pebocooks/" target="_blank">Instagram Profile</a>
+                </td>
+            </tr>
+        </table>
+         <br />
+        <br />
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; MrBashyal - 2024</p>
+            <footer>“Villains are just Broken Heros.”</footer>
+        </div>
+
+        <button id="myButton" onclick="window.location.href='index.html'" style="width: 102px; height: 51px">
+            Home Page
+        </button>
+    </body>
+</html>
